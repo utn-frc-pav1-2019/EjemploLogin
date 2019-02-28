@@ -17,7 +17,7 @@ namespace EjemploLogin
             InitializeComponent();
         }
 
-        private void frmLogin_Click(object sender, EventArgs e)
+        private void btnIngresar_Click(object sender, EventArgs e)
         {
             //Validamos que se haya ingresado un usuario
             if ((txtUsuario.Text == ""))
@@ -61,6 +61,7 @@ namespace EjemploLogin
             //Cerramos la aplicación
             Environment.Exit(0);
         }
+
 
     }
 }

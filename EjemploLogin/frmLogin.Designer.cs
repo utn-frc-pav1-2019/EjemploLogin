@@ -76,6 +76,7 @@
             this.btnIngresar.TabIndex = 4;
             this.btnIngresar.Text = "Ingresar";
             this.btnIngresar.UseVisualStyleBackColor = true;
+            this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
             // 
             // btnSalir
             // 
@@ -100,7 +101,7 @@
             this.Controls.Add(this.lblUsuario);
             this.Name = "frmLogin";
             this.Text = "Inicio de Sesión";
-            this.Click += new System.EventHandler(this.frmLogin_Click);
+            this.Click += new System.EventHandler(this.btnIngresar_Click);
             this.ResumeLayout(false);
             this.PerformLayout();
 
